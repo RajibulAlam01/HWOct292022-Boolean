@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Boolean Attributes</title>
+	<link rel="stylesheet" href="cssblockinline/cssblockinline.css">
+
+</head>
+<body>
+
+	<h1>Boolean Attributes</h1>
+
+<p>There are 24 Boolean Attributes</p>
+
+<p>The Checked attribute</p>
+
+<form action="/action_page.php" method="get">
+  <input type="checkbox" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" name="vehicle3" value="Boat" checked>
+  <label for="vehicle3"> I have a boat</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+	<h2>Autofocus attibute</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" autofocus><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit">
+</form>
+
+
+<p id="p1">Hello World!</p>
+<script src="demo_async.js" async></script>
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+<p>Click on the play button to play a sound:</p>
+
+<audio controls>
+  <source src="horsewalking.wav" type="audio/ogg">
+   
+</audio>
+
+
+
+<iframe src="https://www.youtube.com/embed/UbpuZCB3x9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" disabled><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<form action="/action_page.php">
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <input type="submit" value="Submit">
+  <input type="submit" formnovalidate="formnovalidate" value="Submit without validation">
+</form>
+
+<div>
+  <label for="button1">Button 1</label>
+  <button id="button1">I am not inert</button>
+</div>
+<div inert>
+  <label for="button2">Button 2</label>
+  <button id="button2">I am inert</button>
+</div>
+
+<p>The img ismap attribute</p>
+
+<a href="/action_page.php">
+  <img src="w3html.gif" alt="W3Schools.com" width="100" height="132" ismap>
+</a>
+
+<p>Click the image, and the click coordinates will be sent to the server as a URL query string.</p>
+
+<audio controls loop>
+  <source src="horsewalking.wav" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<p>The Multiple attribute specifies that multiple options can be selected at once:</p>
+
+<form action="/action_page.php">
+  <label for="sneaker brands">Choose a brand:</label>
+  <select name="brands" id="brands" multiple>
+    <option value="Nike">Nike</option>
+    <option value="Adidas">Adidas</option>
+    <option value="Under Armor">Under Armor</option>
+    <option value="Reebok">Reebok</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+<p>Click on the play button to play a sound:</p>
+
+<audio controls muted>
+  <source src="horsewalking.wav" type="audio/ogg">
+  
+</audio>
+
+
+<p>The form novalidate attribute</p>
+
+<form action="/action_page.php" novalidate>
+  <label for="name">Enter your name:</label>
+  <input type="name" id="full name" name="full name"><br><br>
+  <input type="submit">
+</form>
+	
+
+<p>The details open attribute</p>
+
+<details open>
+  <summary>Adidas Ultraboost</summary>
+  <p>Adidas Ultraboost are one of the best sneakers in the world as they are extremely comfirtable.</p>
+</details>
+
+<p>The input readonly attribute</p>
+
+<form action="/action_page.php">
+  <label for="sntype">Sneaker type:</label>
+  <input type="text" id="sntype" name="sntype"><br><br>
+  <label for="brand">Brand:</label>  
+  <input type="text" id="brand" name="brand" value="Adidas" readonly><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+<p>The input required attribute</p>
+
+<form action="/action_page.php">
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email" required>
+  <input type="submit">
+</form>
+
+<p>The ol reversed attribute</p>
+
+<ol reversed>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+</ol>
+
+
+<p>The option selected attribute</p>
+
+<label for="sneaker brands">Choose a Sneaker brand:</label>
+
+<select id="sneaker brands">
+  <option value="Nike">Nike</option>
+  <option value="Adidas" selected>Adidas</option>
+  <option value="Under Armor">Under Armor</option>
+  <option value="Reebok">Reebok</option>
+</select>
+
+
+	<h6>Contact Us
+		<address>
+		Written by <a href="mailto: info@sneakerworld.com"> Rajibul Alam</a><br>
+		Visit us at: www.sneakerworld.com<br>
+		Banani, Dhaka<br>
+		Bangladesh
+		</address>
+	</h6>
+
+
+
+</body>
+</html>
